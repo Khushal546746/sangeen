@@ -1,0 +1,338 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Sectiion */
+nav{
+  height: 60px;
+  border-bottom: 1px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+.logosec{
+  width: 15%;
+  color: orange;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  text-align: center;
+  padding: 9px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius:110%;
+  box-shadow:inset 3px 3px 4px orange;
+ 
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+nav ul li{
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size:20px;
+  border-bottom: 1px solid orange;
+  transition: 0.2s;
+}
+
+nav ul li a:hover{
+  text-decoration:none;
+  color: orange;
+  text-shadow: -1px -1px 1px black;
+  letter-spacing: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size:20px;
+  border-bottom: 3px solid orange;
+  padding-bottom: 12px;
+  border-radius: 50%;
+}
+
+.searchsec{
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.searchsec input{
+  padding: 6px;
+  text-indent: 5px;
+  font-size: 15px;
+  font-weight: lighter;
+  border-radius: 6px;
+  border: 1px outset black;
+  box-shadow: 1px 1px 5px black;
+  outline: none;
+  width:150px ;
+  margin-right: 12px;
+}
+
+.sbutton{
+padding: 3px 19px;
+box-shadow: 1px 1px 5px black;
+border-radius: 9px;
+background-color: hsl(46, 100%, 50%);
+color: white;
+font-size: 19px;
+text-shadow: 1px 1px 2px black;
+cursor: pointer;
+}
+
+/* Navbar Ends Here */
+
+
+/* Intro Section */
+.intropor{
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 33px;
+ border-bottom: 20px ridge orange;
+ border-bottom-left-radius: 20%;
+ border-bottom-right-radius:40% ;
+}
+
+.fis{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.fis p{
+  font-size: 25px;
+  text-align: justify;
+  text-indent: 190px;
+  text-align-last: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.fis h1{
+  color: orange;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 1px black;
+  font-size: 44px;
+  display: flex;
+
+  
+}
+.sis{
+  background: url(./wskirt.jpg);
+  background-size: contain;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(5px 5px 8px black);
+  width: 45%;
+  height: 100%;
+  border-bottom-right-radius:60%;
+}
+
+/* MainCollection For Mens  Women */
+
+.mcmb{
+  height: 400px;
+  margin-top: 20px;
+}
+
+.mch{
+  display: block;
+  text-align: center;
+  padding: 12px;
+  font-size: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: orange;
+  text-shadow: 2px 2px 3px black;
+  margin: 50px 0px;
+}
+
+.mcm{
+  display: flex;
+  justify-content: space-evenly;
+  height: 45vh;
+}
+
+.item{
+display: flex;
+flex-direction: column;
+cursor: pointer;
+flex-wrap: wrap;
+}
+
+.menimg{
+  height: 82%;
+  width: 60vh;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.item h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 30%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  background-color: orange;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.item h2:hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 30%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  background-color: orange;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 2px black;
+}
+
+#mshirt{
+ width: 60%;
+ height: 100%;
+ filter: drop-shadow(2px 2px 4px black);
+
+}
+
+#mjeans{
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(2px 2px 4px black);
+ }
+
+ #mcap{
+  width: 70%;
+  height: 100%;
+  filter: drop-shadow(5px 5px 8px black);
+ }
+
+ /* Mens & Women Collection Ends Here */
+
+ /* About Section */
+ .aboutus{
+  height: 400px;
+  background-color: orange;
+  margin-top: 45px;
+ }
+
+ .abouthead{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 33px;
+  font-size: 44px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+ }
+ 
+ .about p{
+  text-align: justify;
+  padding: 50px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: white;
+  border-top-left-radius: 50%;
+  box-shadow: -2px -2px 3px black;
+  height: 200px;
+ }
+
+ /* Footer */
+.footer{
+  background-color: white;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 33px;
+  border-top: 1px solid orange;
+ }
+
+.footer ul {
+  width: 65%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+}
+
+.footer ul li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+ }
+
+.footer ul li a{
+  text-decoration:none;
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size:20px;
+  border-bottom: 1px solid orange;
+  transition: 0.2s;
+ }
+
+ footer ul li a:hover{
+  text-decoration:none;
+  color: orange;
+  text-shadow: -1px -1px 1px black;
+  letter-spacing: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size:20px;
+  border-bottom: 3px solid orange;
+  padding-bottom: 12px;
+  border-radius: 50%;
+}
+
+.fh{
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-left: 8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  color: green;
+  text-shadow: 1px 1px 2px black;
+}
